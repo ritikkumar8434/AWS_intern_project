@@ -94,7 +94,7 @@ def connect_python_to_mongodb():
    
 
     print("connecting.....")
-    uri = "mongodb+srv://ritikkumar3g:1122334455667788@cluster0.nudjced.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&ssl=true&tlsAllowInvalidCertificates=true"
+    uri = "mongodb+srv://ritikkumar(username):<password>@cluster0.nudjced.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&ssl=true&tlsAllowInvalidCertificates=true"
 
     # Create a new client and connect to the server
     client = MongoClient(uri, server_api=ServerApi('1'))
