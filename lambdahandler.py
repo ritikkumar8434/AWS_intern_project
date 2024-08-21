@@ -25,7 +25,7 @@ def lambda_handler(event, context):
     # Email content
     subject = "Test Email from Lambda"
     body_text = "This is a test email sent by AWS Lambda using Amazon SES."
-    sender = "ritikkumar9g@gmail.com"  # Replace with a verified email in SES
+    sender = "examplemail@gmail.com"  # Replace with a verified email in SES
 
     # Send email to each address using SES
     for email in email_list:
